@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    background-image: linear-gradient(90deg, #191970, #DC143C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    color: midnightblue;
+    background-color: lightgreen;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    padding: 0.7rem 1.2rem;
+    margin-bottom: 1.2rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 5px 5px 0px #000;
+}
+
+#joke-container {
+    font-size: 1.2rem;
+    color: midnightblue;
+    line-height: 1.5;
+    padding: 0.5rem;
+}
