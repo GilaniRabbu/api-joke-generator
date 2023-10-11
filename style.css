@@ -1,5 +1,15 @@
-body {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
     margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -17,13 +27,14 @@ h1 {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    margin-bottom: 1rem;
 }
 
 button {
     cursor: pointer;
     border: 0;
-    color: midnightblue;
-    background-color: lightgreen;
+    color: #191970;
+    background-color: #90EE90;
     font-size: 1.2rem;
     font-weight: 600;
     font-family: monospace;
@@ -40,7 +51,7 @@ button:hover {
 
 #joke-container {
     font-size: 1.2rem;
-    color: midnightblue;
+    color: #191970;
     line-height: 1.5;
     padding: 0.5rem;
 }
